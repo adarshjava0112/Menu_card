@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+    box-sizing: border-box;
+}
+.outer{
+    padding: 30px;
+    position: relative;
+    color: rgb(161, 132, 78);
+    background-color: black;
+    width: 600px;
+    height: 900px;
+    border: 2px solid red;
+    box-shadow: 5px 10px brown;
+}
+.vari{
+    padding-top: 40px;
+}
+main p{
+    color:rgb(178, 170, 160);
+}
+.inner{
+    height: 700px;
+    background-color:rgb(164, 113, 17);
+    position: absolute;
+    top: 130px;
+    right: 10px;
+    display: grid;
+    gap: 7px;
+    width:50px;
+    color:rgb(178, 170, 160);
+    font-weight: 400;
+    font-size: large;
+   
+}
